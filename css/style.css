@@ -1,0 +1,105 @@
+body {
+  background-color: gray;
+  font-family: "playfair Display";
+}
+
+header {
+  background-color: black;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav div p {
+  color: white;
+  font-weight: bolder;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 7px 20px;
+  margin: 0 15px;
+  color: black;
+  border: 1px solid whitesmoke;
+  background-color: white;
+  border-radius: 5px;
+}
+
+section {
+  width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+hr {
+  width: 80%;
+}
+
+#hero h1 {
+  font-size: 5.5rem;
+  margin: 0;
+  font-weight: bolder;
+}
+
+#hero span {
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+
+#hero p {
+  font-size: 3.5rem;
+  margin-top: 20px;
+  font-weight: lighter;
+}
+
+#about h2 {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#about p {
+  font-size: 1.5rem;
+}
+
+#skills h2 {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#skills p {
+  font-size: 1.5rem;
+}
+
+#skills ul li {
+  font-size: 1.2rem;
+}
+
+#contact h2 {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#contact p {
+  font-size: 1.5rem;
+}
+
+#contact a {
+  color: wheat;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+  padding: 20px 0;
+}
